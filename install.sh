@@ -17,7 +17,7 @@ git clone http://github.com/hcpb/photobooth
 chown -R dgd:dgd photobooth 
 
 mkdir /var/www/html/photobooth
-chmod 777 /var/ww/html/photobooth
+chmod 777 /var/www/html/photobooth
 cd /var/www/html
 mkdir for-display for-phone for-print raw-images
 chmod 777 *
