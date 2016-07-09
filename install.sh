@@ -1,5 +1,6 @@
 apt-get -y install apache2 samba netatalk python-serial python-pygame \
-	graphicsmagick libgphoto2-dev gphoto2 git libauthen-pam-perl apt-show-versions
+	graphicsmagick libgphoto2-dev gphoto2 git libauthen-pam-perl \
+	apt-show-versions dconf-editor gconf-editor
 
 useradd -G dialout,tty dgd
 
